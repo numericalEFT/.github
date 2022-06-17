@@ -39,7 +39,7 @@ Most of the components have been published as independent packages, so that user
 
 ### Applications:
 
-- [ElectronGas.jl](https://github.com/numericalEFT/ElectronGas.jl)): Numerical effective field theory approach to the electron gas problem.
+- [ElectronGas.jl](https://github.com/numericalEFT/ElectronGas.jl): Numerical effective field theory approach to the 2D/3D electron gas problem.
 
 <!-- - Fast elementary math functions. Some of them are adapted from the package [Yeppp.jl](https://github.com/JuliaMath/Yeppp.jl). It supports more generic array types than the original package. -->
 
