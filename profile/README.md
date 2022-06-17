@@ -1,4 +1,4 @@
-# [NumericalEFT.jl](https://github.com/numericalEFT/NumericalEFT.jl)
+# NumericalEFT
 
 Numerical effective field theory toolbox for quantum many-body problem.
 
@@ -17,7 +17,7 @@ Potential applications of Numerical EFT are the electron liquids in real materia
 
 ## Features
 
-The package ``NumericalEFT.jl`` is a collection of several independent components, which are organized in the following infrastructure: 
+The package [``NumericalEFT.jl``](https://github.com/numericalEFT/NumericalEFT.jl) is a collection of several independent components, which are organized in the following infrastructure: 
 
 ![NumericalEFT](/profile/assets/numericalEFT.svg)
 
