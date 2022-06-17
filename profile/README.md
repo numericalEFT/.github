@@ -1,4 +1,4 @@
-# NumericalEFT
+# [NumericalEFT.jl](https://github.com/numericalEFT/NumericalEFT.jl)
 
 Numerical effective field theory toolbox for quantum many-body problem.
 
