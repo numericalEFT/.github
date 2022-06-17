@@ -23,7 +23,7 @@ The package [``NumericalEFT.jl``](https://github.com/numericalEFT/NumericalEFT.j
 
 Most of the components have been published as independent packages, so that user has the freedom to try them separately. The package is in development stage. The following packages are production ready. 
 
-### Core and Tools Level:
+### Core/Tool:
 
 - [Lehmann.jl](https://github.com/numericalEFT/Lehmann.jl): Discrete Lehmann representation (DLR) for imaginary-time/Matsubara frequency Green's function. For a generic Green's function at a temperature T, DLR is capable of representing it up to a given accuracy ϵ with a cost ~ log(1/T)log(1/ϵ), signicantly cheaper than a naive approach with a cost ~ 1/(Tϵ). 
 
