@@ -21,7 +21,9 @@ The package [``NumericalEFT.jl``](https://github.com/numericalEFT/NumericalEFT.j
 
 ![NumericalEFT](/profile/assets/numericalEFT.svg)
 
-Most of the components have been published as independent packages, so that user has the freedom to try them separately. The package is in development stage. Many components are still missing. Here we list the components that are production ready:
+Most of the components have been published as independent packages, so that user has the freedom to try them separately. The package is in development stage. The following packages are production ready. 
+
+### Core and Tools Level:
 
 - [Lehmann.jl](https://github.com/numericalEFT/Lehmann.jl): Discrete Lehmann representation (DLR) for imaginary-time/Matsubara frequency Green's function. For a generic Green's function at a temperature T, DLR is capable of representing it up to a given accuracy ϵ with a cost ~ log(1/T)log(1/ϵ), signicantly cheaper than a naive approach with a cost ~ 1/(Tϵ). 
 
@@ -34,6 +36,10 @@ Most of the components have been published as independent packages, so that user
 - [GreenFunc.jl](https://github.com/numericalEFT/GreenFunc.jl): A container for generic Green's functions.
 
 - [Atom.jl](https://github.com/numericalEFT/Atom.jl): A small-scale exact diagonalization solver to calculate the Many-body Green's functions of a small cluster of Hubbard-type atoms.
+
+### Applications:
+
+- [ElectronGas.jl](https://github.com/numericalEFT/ElectronGas.jl)): Numerical effective field theory approach to the electron gas problem.
 
 <!-- - Fast elementary math functions. Some of them are adapted from the package [Yeppp.jl](https://github.com/JuliaMath/Yeppp.jl). It supports more generic array types than the original package. -->
 
