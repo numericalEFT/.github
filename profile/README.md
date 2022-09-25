@@ -17,13 +17,11 @@ Nonlocal and nonrelativistic EFTs are typically much more difficult to deal with
 
 ## Features
 
-The package [``NumericalEFT.jl``](https://github.com/numericalEFT/NumericalEFT.jl) is a collection of several independent components, which are organized in the following infrastructure: 
+The package ``NumericalEFT.jl`` is a collection of several independent components, which are organized in the following infrastructure: 
 
-![NumericalEFT](/profile/assets/numericalEFT.svg)
+![NumericalEFT](docs/src/assets/numericalEFT_clickable.svg)
 
-Most of the components have been published as independent packages, so that user has the freedom to try them separately. The package is in development stage. The following packages are production ready. 
-
-### Core/Tool:
+Most of the components have been published as independent packages, and you can test or use them separately. The packages are still fast-evolving, but many are production-ready.
 
 ### Core packages: a set of self-contained and general-purpose tools.
 
@@ -54,10 +52,6 @@ Most of the components have been published as independent packages, so that user
 - [ElectronGas.jl](https://github.com/numericalEFT/ElectronGas.jl): A package that uses the numerical EFT to explore many-fermion systems with singular interactions. It can be used to study the uniform electron gas problem, Hertz-Millis theory, etc. 
 
 - QuantumMaterials.jl (WIP): Ab-initio methods for real materials based on an effective field theory.
-
-### Applications:
-
-- [ElectronGas.jl](https://github.com/numericalEFT/ElectronGas.jl): Numerical effective field theory approach to the 2D/3D electron gas problem.
 
 <!-- - Fast elementary math functions. Some of them are adapted from the package [Yeppp.jl](https://github.com/JuliaMath/Yeppp.jl). It supports more generic array types than the original package. -->
 
