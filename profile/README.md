@@ -1,6 +1,6 @@
 # NumericalEFT
 
-Numerical effective field theory toolbox for quantum many-body problem.
+Differentiable numerical framework for effective field theory in quantum many-body systems.
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://numericalEFT.github.io/NumericalEFT.jl/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://numericalEFT.github.io/NumericalEFT.jl/)
