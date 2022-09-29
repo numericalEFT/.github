@@ -1,4 +1,4 @@
-# NumericalEFT
+# Numerical Effective Field Theory
 
 Differentiable numerical framework for effective field theory in quantum many-body systems.
 
