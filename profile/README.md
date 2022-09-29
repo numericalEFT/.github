@@ -7,13 +7,14 @@ Differentiable numerical framework for effective field theory in quantum many-bo
 [![Build Status](https://github.com/numericalEFT/NumericalEFT.jl/workflows/CI/badge.svg)](https://github.com/numericalEFT/NumericalEFT.jl/actions)
 [![codecov](https://codecov.io/gh/numericalEFT/NumericalEFT.jl/branch/master/graph/badge.svg?token=OKnDPEC3In)](https://codecov.io/gh/numericalEFT/NumericalEFT.jl)
 
-## Motivation
+## Why We Create this Package
 
-Effective field theory (EFT) models the correlation functions of quantum many-body systems with an effective action defined below a certain energy/momentum scale. EFT has been widely used in high-energy physics, nuclear physics, and condensed matter physics. Originally, EFT was developed assuming __the principle of locality__, which states that an object is influenced directly only by its immediate surroundings. If one observes a long-range interaction between two particles (say, the Coulomb interaction between two electrons), then such interaction must be mediated by an intermediate particle called a gauge boson (the photon in the previous example).
+The physical laws that govern the large-scale behavior of quantum many-body systems are often surprisingly simple. Such physical laws can often be modeled with interacting quantum fields with effective field theory (EFT). The framework of EFT originated from high-energy physics and quickly adapted into nuclear physics and condensed matter physics. It has become a common language of modern physics.
 
-All known theories of the elementary particles in our universe are local theories, but it does not mean the local EFT rules everything. Below the energy scales most relevant for human life, the speed of light can be safely assumed to be infinite so that effective physical laws are governed by an absolute Newtonian time. In those systems, an event at one point can cause a simultaneous result at another point. The EFTs describe such systems are then nonlocal. Therefore, we create this package to extend the conventional EFT to a new frontier, namely to systematically model the quantum fields with __spooky interactions__ with a distance.
+Conventional EFT assumes __the principle of locality__, meaning that the quantum field is influenced directly only by its immediate surroundings. All known elementary physical laws of our universe turn out to be local. However, the emergent physical laws which govern human-scale physics are commonly nonlocal. It is a direct consequence of the emergent absolute Newtonian spacetime. 
 
-Nonlocal and nonrelativistic EFTs are typically much more difficult to deal with than conventional EFTs. One of the major difficulties is how to make predictions with such theories. It is often not possible anymore to calculate the observables analytically. We thus develop this numerical package to solve the problem and make nonlocal EFT a practical tool for real-world applications, including the electron liquids in real materials, chiral EFT in the neutron-rich matter, and all kinds of emergent low-energy field theories in lattice models.
+We create this package to explore the largely uncharted territory of nonlocal EFT. Our package provides numerical tools that enable the modeling of real-world problems with nonlocal EFT. Potential applications 
+include electron liquids in real materials, chiral EFT in neutron-rich matter, and all kinds of emergent low-energy field theories in lattice models.
 
 ## Features
 
