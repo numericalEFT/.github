@@ -9,12 +9,7 @@ Differentiable numerical framework for effective field theory in quantum many-bo
 
 ## Why We Create this Package
 
-The physical laws that govern the large-scale behavior of quantum many-body systems are often surprisingly simple. Such physical laws can often be modeled with interacting quantum fields with effective field theory (EFT). The framework of EFT originated from high-energy physics and quickly adapted into nuclear physics and condensed matter physics. It has become a common language of modern physics.
-
-Conventional EFT assumes __the principle of locality__, meaning that the quantum field is influenced directly only by its immediate surroundings. All known elementary physical laws of our universe turn out to be local. However, the emergent physical laws which govern human-scale physics are commonly nonlocal. It is a direct consequence of the emergent absolute Newtonian spacetime. 
-
-We create this package to explore the largely uncharted territory of nonlocal EFT. Our package provides numerical tools that enable the modeling of real-world problems with nonlocal EFT. Potential applications 
-include electron liquids in real materials, chiral EFT in neutron-rich matter, and all kinds of emergent low-energy field theories in lattice models.
+Our package offers advanced numerical solutions for nonlocal effective field theory (EFT), a powerful method for understanding the behavior of large groups of quantum particles. EFT is widely utilized in various areas of modern physics such as nuclear, condensed matter and material science, but its conventional form, which relies on the principle of locality and high symmetries, can limit its effectiveness in real-world condensed matter systems where symmetries are broken and interactions are long-range and dynamic. An example of this type of nonlocal EFT is the description of valence electrons in normal metals, where the electron fields move in a lattice potential that breaks translational and rotational symmetry and the Coulomb interaction between electrons has a complex spacetime configuration. These types of EFT are notoriously challenging to solve. Our package offers cutting-edge numerical tools to solve nonlocal EFT, providing a new way to model real-world quantum many-body problems and opening new possibilities in various fields.
 
 ## Features
 
