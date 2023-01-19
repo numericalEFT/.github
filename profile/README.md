@@ -28,7 +28,7 @@ Most of the components have been published as independent packages, and you can 
 
 - [Lehmann.jl](https://github.com/numericalEFT/Lehmann.jl): Discrete Lehmann representation (DLR) for imaginary-time/Matsubara frequency Green's function. For a generic Green's function at a temperature T, DLR is capable of representing it up to a given accuracy ϵ with a cost ~ log(1/T)log(1/ϵ), significantly cheaper than a naive approach with a cost ~ 1/(Tϵ). 
 
-- [FeynmanDiagram.jl](https://github.com/numericalEFT/FeynmanDiagram.jl): A mini-compiler that compiles generic multi-loop Feynman diagrams to a computational graph, which then can be efficiently manipulated or evaluated. The same type of computational graph has been the corner of neural-network-based machine learning.
+- [FeynmanDiagram.jl](https://github.com/numericalEFT/FeynmanDiagram.jl): A mini-compiler that compiles generic multi-loop Feynman diagrams to a computational graph, which then can be efficiently manipulated or evaluated. The same type of computational graph has been a cornerstone of the neural-network-based machine learning.
 
 - [MCIntegration.jl](https://github.com/numericalEFT/MCIntegration.jl): An adaptive Monte Carlo calculator for general high dimensional integral. It is one of the most robust and fastest Monte Carlo integration packages on the market. 
 
